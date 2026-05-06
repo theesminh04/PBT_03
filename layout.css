@@ -1,0 +1,35 @@
+.container {
+    width: 1000px;
+    margin: 20px auto;
+    display: flex; 
+    background-color: #eee;
+    border: 2px solid #333;
+}
+
+/* Các cột */
+.sidebar-left, .sidebar-right {
+    width: 250px;
+    padding: 15px;
+    background-color: #d1d8e0;
+}
+
+.content-mid {
+    width: 500px;
+    padding: 20px;
+    background-color: #a5b1c2;
+}
+
+.content-box-mode div, 
+.content-box-mode aside, 
+.content-box-mode main {
+    box-sizing: content-box;
+}
+.content-box-mode {
+    flex-wrap: wrap; 
+}
+
+.border-box-mode div, 
+.border-box-mode aside, 
+.border-box-mode main {
+    box-sizing: border-box;
+}
